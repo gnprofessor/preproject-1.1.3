@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Util {
-    private String url = "jdbc:mysql://localhost/preproject?serverTimezone=Europe/Moscow&useSSL=false";
+    private String url = "jdbc:mysql://localhost:3306/preproject?serverTimezone=Europe/Moscow&useSSL=false";
     private String username = "root";
     private String password = "root";
     private String driver = "com.mysql.cj.jdbc.Driver";
